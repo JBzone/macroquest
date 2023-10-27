@@ -393,7 +393,7 @@ bool MQ2AdvLootItemType::GetMember(MQVarPtr VarPtr, const char* Member, char* In
 			strcpy_s(DataTypeTemp, "FREEGRAB");
 			break;
 		}
-;
+
 		Dest.Ptr = &DataTypeTemp[0];
 		return true;
 	}
